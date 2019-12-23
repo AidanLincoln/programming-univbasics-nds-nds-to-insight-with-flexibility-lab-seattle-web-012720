@@ -77,6 +77,7 @@ def movies_with_directors_set(source)
     array.push(source[director_index][:movies])
     director_index += 1
   end
+  return array
 end
 
 # ----------------    End of Your Code Region --------------------
