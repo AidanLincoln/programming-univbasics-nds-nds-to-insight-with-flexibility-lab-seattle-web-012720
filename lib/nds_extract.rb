@@ -50,7 +50,8 @@ def movies_with_director_key(name, movies_collection)
   # movie_with_director_name method
   index = 0
   while index < movies_collection.length do
-    binding.pry
+    movies_collection[index][:director_name] = name
+    index += 1
   end
 end
 
