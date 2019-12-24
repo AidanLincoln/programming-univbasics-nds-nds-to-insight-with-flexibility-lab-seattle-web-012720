@@ -58,9 +58,10 @@ def gross_per_studio(collection)
   index = 0
   total = 0
   while index < collection.length do
-    
+    hash[collection[index][:studio]] = collection[index][:worldwide_gross]
+    index += 1
   end
-  
+  return hash
   
 end
 
