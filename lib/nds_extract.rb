@@ -85,7 +85,7 @@ def movies_with_directors_set(source)
   director_index = 0
   while director_index < source.length do 
     binding.pry
-    array.push(movies_with_director_key(source[director_index][:name], source[director_index][:movies])
+    array.push(movies_with_director_key(source[director_index][:name], source[director_index][:movies]))
     director_index += 1
   end
   return array
